@@ -58,7 +58,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 * Açılan səhifədə user götürməy istədiyiniz qrupu daxil edin
 
 
-`$ python3 smsbot.py members.csv`
+`$ cat members.csv`
 
 * Update Tool
 
