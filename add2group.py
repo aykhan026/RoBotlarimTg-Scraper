@@ -43,7 +43,7 @@ if not client.is_user_authorized():
     client.send_code_request(phone)
     os.system('clear')
     banner()
-    client.sign_in(phone, input(gr+'[+] Enter the code: '+re))
+    client.sign_in(phone, input(gr+'[+] Kodu daxil edin: '+re))
  
 os.system('clear')
 banner()
@@ -86,13 +86,13 @@ for group in groups:
     print(gr+'['+cy+str(i)+gr+']'+cy+' - '+group.title)
     i+=1
 
-print(gr+'[+] Choose a group to add members')
-g_index = input(gr+"[+] Enter a Number : "+re)
+print(gr+'[+] Üzvləri əlavə etmək üçün bir qrup seçin')
+g_index = input(gr+"[+] Kodu daxil edin : "+re)
 target_group=groups[int(g_index)]
  
 target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
  
-print(gr+"[1] add member by user ID\n[2] add member by username ")
+print(gr+"[1] istifadəçi tərəfindən üzv əlavə edin ID\n[2] add member by username ")
 mode = int(input(gr+"Input : "+re)) 
 n = 0
  
