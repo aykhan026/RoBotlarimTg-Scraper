@@ -3,8 +3,8 @@
 
 """
 
-you can re run setup.py 
-if you have added some wrong value
+setup.py-ni yenidən işə sala bilərsiniz
+səhv bir dəyər əlavə etmisinizsə
 
 """
 re="\033[1;31m"
