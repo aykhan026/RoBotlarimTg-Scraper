@@ -31,8 +31,9 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 ## • Quraşdırmaq
 * Termuxu açın və kodları növbəylə yazın
+
 `$ apt update`
-`$ pkg install -y git python`
+`$ pkg install python git`
 
 `$ git clone https://github.com/aykhan026/RoBotlarimTg-Scraper.git`
 
