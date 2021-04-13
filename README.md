@@ -66,4 +66,6 @@ qrup sahiblərini narahat etmiş olursunuz !
 
 * Və açılan səhifədə userləri atacağınız qrupu seçin
 ---
-
+# 📣Əlavə
+* Əgər bu sizin işinizə yaradısa <a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a> kanalına abu olmağı unutmayın 😉
+* Qeyd edimki bu scripti işlətməklə heçbir şəxsi məlumatlarınız oğurlanmadığınnan tam əmin ola bilərsiniz açıq kodlardı gözdən keçirə bilərsiniz.
