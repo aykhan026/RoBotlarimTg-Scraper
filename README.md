@@ -55,6 +55,8 @@ Tam Azərbaycan Dilindədir 🇦🇿
 `$ python3 scraper.py`
 
 * Telegrama gedən kodu daxil edin
+* Açılan səhifədə user götürməy istədiyiniz qrupu daxil edin
+
 
 `$ python3 smsbot.py members.csv`
 
