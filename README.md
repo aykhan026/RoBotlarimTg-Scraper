@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/d827dfc6b2da61667a5d4.jpg" width="350" height="350">
+  <img src="https://telegra.ph/file/d827dfc6b2da61667a5d4.jpg" width="300" height="300">
 </p>
 
 <p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
