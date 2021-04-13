@@ -25,7 +25,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 ## ⚠️DİQQƏT⚠️
 Qrupdan qrupa user daşıyaraq istifadəçiləri və eyni zamanda
 qrup sahiblərini narahat etmiş olursunuz !
-<a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a> bu narahatçılıqlara görə heçbir məsuıiyyət daşımır !
+<a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a> bu narahatçılıqlara görə heçbir məsuliyyət daşımır !
 
 ## • APİ almaq
 * Brauzerlə http://my.telegram.org adresinə daxil olun
@@ -51,7 +51,7 @@ qrup sahiblərini narahat etmiş olursunuz !
 
 `$ python3 setup.py -c`
 
-* API-ID API-Hash və api aldığənız hesabın telefon nömrəsini düzgün qeyd edin
+* API-ID API-Hash və api aldığınız hesabın telefon nömrəsini düzgün qeyd edin
 
 `$ python3 scraper.py`
 
