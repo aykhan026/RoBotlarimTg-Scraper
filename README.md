@@ -25,7 +25,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 ## ⚠️DİQQƏT⚠️
 Qrupdan qrupa user daşıyaraq istifadəçiləri və eyni zamanda
 qrup sahiblərini narahat etmiş olursunuz !
-RoBotlarim bu narahatçılıqlara görə heçbir məsuıiyyət daşımır !
+<a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a> bu narahatçılıqlara görə heçbir məsuıiyyət daşımır !
 
 ## • APİ almaq
 * Brauzerlə http://my.telegram.org adresinə daxil olun
