@@ -21,7 +21,9 @@ def banner():
 {re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
 {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
 
-            version : 1.0
+            versiya : 1.0
+            RoBotlarımTg
+            aykhan_s
         """)
 
 cpass = configparser.RawConfigParser()
@@ -101,7 +103,7 @@ for user in users:
     if n % 50 == 0:
 	    time.sleep(1)
 	    try:
-	        print ("Adding {}".format(user['id']))
+	        print ("Əlavə olunur {}".format(user['id']))
 	        if mode == 1:
 	            if user['username'] == "":
 	                continue
