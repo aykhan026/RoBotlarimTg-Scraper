@@ -18,6 +18,11 @@
 <p align="center">
 </p>
 
+<div align="center">
+  
+  <h1>RoBotlarım 👨🏻‍💻</h1>
+</div>
+
 ---
 ## Qeyd 
 Telegraph programının işləməməsi nəticəsində artıq 
