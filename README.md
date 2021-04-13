@@ -4,22 +4,28 @@
 
 <p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
 <p align="center">
-  <a href="https://github.com/th3unkn0n">
-    <img src="https://img.shields.io/github/followers/th3unkn0n?label=Follow&style=social">
+  <a href="https://github.com/aykhan026">
+    <img src="https://img.shields.io/github/followers/aykhan026?label=Follow&style=social">
   </a>
-  <a href="https://github.com/th3unkn0n/TeleGram-Group-Scraper">
-    <img src="https://img.shields.io/github/stars/th3unkn0n/TeleGram-Group-Scraper?style=social">
+  <a href="https://github.com/aykhan026/RoBotlarimTg-Scraper">
+    
   </a>
 </p>
 <p align="center">
-  Telegram Group Scrapper
+  RoBotlarımTg - Scraper
 </p>
 <p align="center">
 </p>
 
 ---
+## Qeyd 
+Telegraph programının işləməməsi nəticəsində artıq 
+Telegramda user daşımaq minimum səviyyədədir və ancaq Azərbaycan nömrələriylə mümkündür
+Bu script vaistəsiyıə +1 (fake) nömrələr vaistəsiylədə user daşıya biıəcəksiniz.
+Tam Azərbaycan Dilindədir 🇦🇿
 
-## • API Setup
+
+## • Quraşdırma
 * Go to http://my.telegram.org  and log in.
 * Click on API development tools and fill the required fields.
 * put app name you want & select other in platform Example :
