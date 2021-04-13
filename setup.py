@@ -31,8 +31,8 @@ def requirements():
 			python3 -m pip install cython numpy pandas
 			""")
 	banner()
-	print(gr+'['+cy+'+'+gr+']'+cy+' it will take upto 10 min to install csv merge.')
-	input_csv = input(gr+'['+cy+'+'+gr+']'+cy+' do you want to enable csv merge (y/n): ').lower()
+	print(gr+'['+cy+'+'+gr+']'+cy+' csv birləşməsini quraşdırmaq 10 dəqiqə çəkəcək.')
+	input_csv = input(gr+'['+cy+'+'+gr+']'+cy+' csv birləşməsini aktivləşdirmək istəyirsiniz (y/n): ').lower()
 	if input_csv == "y":
 		csv_lib()
 	else:
@@ -52,9 +52,9 @@ def config_setup():
 	banner()
 	cpass = configparser.RawConfigParser()
 	cpass.add_section('cred')
-	xid = input(gr+"[+] APİ İD yazın : "+re)
+	xid = input(gr+"[+] API ID yazın : "+re)
 	cpass.set('cred', 'id', xid)
-	xhash = input(gr+"[+] Hash İD yazın : "+re)
+	xhash = input(gr+"[+] API Hash yazın : "+re)
 	cpass.set('cred', 'hash', xhash)
 	xphone = input(gr+"[+] Telefon nömrənizi yazın : "+re)
 	cpass.set('cred', 'phone', xphone)
