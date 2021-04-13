@@ -50,7 +50,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 `$ python3 setup.py -c`
 
-* To Genrate User Data
+* API-ID API-Hash və api aldığənız hesabın telefon nömrəsini düzgün qeyd edin
 
 `$ python3 scraper.py`
 
