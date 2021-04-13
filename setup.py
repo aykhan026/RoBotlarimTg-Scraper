@@ -1,5 +1,5 @@
 #!/bin/env python3
-# code by : youtube.com/theunknon
+# code by : aykhan_s
 
 """
 
@@ -37,14 +37,14 @@ def requirements():
 		csv_lib()
 	else:
 		pass
-	print(gr+"[+] Installing requierments ...")
+	print(gr+"[+] Tələblər quraşdırılır ...")
 	os.system("""
 		pip3 install telethon requests configparser
 		python3 -m pip install telethon requests configparser
 		touch config.data
 		""")
 	banner()
-	print(gr+"[+] requierments Installed.\n")
+	print(gr+"[+] Tələblər quraşdırılıb.\n")
 
 
 def config_setup():
@@ -52,16 +52,16 @@ def config_setup():
 	banner()
 	cpass = configparser.RawConfigParser()
 	cpass.add_section('cred')
-	xid = input(gr+"[+] enter api ID : "+re)
+	xid = input(gr+"[+] APİ İD yazın : "+re)
 	cpass.set('cred', 'id', xid)
-	xhash = input(gr+"[+] enter hash ID : "+re)
+	xhash = input(gr+"[+] Hash İD yazın : "+re)
 	cpass.set('cred', 'hash', xhash)
-	xphone = input(gr+"[+] enter phone number : "+re)
+	xphone = input(gr+"[+] Telefon nömrənizi yazın : "+re)
 	cpass.set('cred', 'phone', xphone)
 	setup = open('config.data', 'w')
 	cpass.write(setup)
 	setup.close()
-	print(gr+"[+] setup complete !")
+	print(gr+"[+] Quraşdırma Tamamlandı !")
 
 def merge_csv():
 	import pandas as pd
