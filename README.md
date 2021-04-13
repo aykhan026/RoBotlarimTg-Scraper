@@ -10,17 +10,10 @@
   <a href="https://github.com/aykhan026/RoBotlarimTg-Scraper">
     
   </a>
-</p>
-<p align="center">
-<h1>RoBotlarım 👨🏻‍💻</h1>
-<h1>Scraper</h1>
-</p>
-<p align="center">
-</p>
 
 <div align="center">
-  
   <h1>RoBotlarım 👨🏻‍💻</h1>
+  <h1>Scraper</h1>
 </div>
 
 ---
