@@ -42,8 +42,6 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 `$ cd RoBotlarimTg-Scraper`
 
-* Install requierments
-
 `$ python3 setup.py -i`
 
 * Açılan səhifədə "n" yazıb enter basın
@@ -56,7 +54,6 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 * Telegrama gedən kodu daxil edin
 * Açılan səhifədə user götürməy istədiyiniz qrupu daxil edin
-
 
 `$ cat members.csv`
 
