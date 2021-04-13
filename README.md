@@ -22,7 +22,7 @@ Telegraph programının işləməməsi nəticəsində artıq
 Telegramda user daşımaq minimum səviyyədədir və ancaq Azərbaycan nömrələriylə mümkündür
 Bu script vaistəsiyıə +1 (fake) nömrələr vaistəsiylədə user daşıya biıəcəksiniz.
 Tam Azərbaycan Dilindədir 🇦🇿
-## ⚠️DİQQƏT⚠️
+# ⚠️DİQQƏT⚠️
 Qrupdan qrupa user daşıyaraq istifadəçiləri və eyni zamanda
 qrup sahiblərini narahat etmiş olursunuz !
 <a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a> bu narahatçılıqlara görə heçbir məsuliyyət daşımır !
@@ -66,6 +66,6 @@ qrup sahiblərini narahat etmiş olursunuz !
 
 * Və açılan səhifədə userləri atacağınız qrupu seçin
 ---
-# 📣Əlavə
+## 📣Əlavə
 * Əgər bu sizin işinizə yaradısa <a href="https://t.me/RoBotlarimTg">RoBotlarım👨🏻‍💻</a> kanalına abu olmağı unutmayın 😉
 * Qeyd edimki bu scripti işlətməklə heçbir şəxsi məlumatlarınız oğurlanmadığınnan tam əmin ola bilərsiniz açıq kodlardı gözdən keçirə bilərsiniz.
