@@ -24,19 +24,19 @@ Bu script vaistəsiyıə +1 (fake) nömrələr vaistəsiylədə user daşıya bi
 Tam Azərbaycan Dilindədir 🇦🇿
 
 
-## • Quraşdırma
-* Go to http://my.telegram.org  and log in.
-* Click on API development tools and fill the required fields.
-* put app name you want & select other in platform Example :
-* copy "api_id" & "api_hash" after clicking create app ( will be used in setup.py )
+## • APİ almaq
+* Brauzerlə http://my.telegram.org adresinə daxil olun
+* Qeydiyyatdan keçin
+* APİ id və APİ Hash kopyalayıb bir yerə qeyd edin
 
-## • How To Install and Use
+## • Quraşdırmaq
+* Termuxu açın və kodları növbəylə yazın
 
 `$ pkg install -y git python`
 
-`$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git`
+`$ git clone https://github.com/aykhan026/RoBotlarimTg-Scraper.git`
 
-`$ cd TeleGram-Scraper`
+`$ cd RoBotlarimTg-Scraper`
 
 * Install requierments
 
@@ -61,13 +61,3 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 ---
 
-<p align="center">
-  Follow Me On
-</p>
-<p align="center">
-  <a href="https://youtube.com/channel/UCnknCgg_3pVXS27ThLpw3xQ">
-    <img src="https://github.com/th3unkn0n/extra/blob/master/.img/yt.png" width="40" height="40">
-  </a>
-  <a href="https://twitter.com/th3unkn0n">
-    <img src="https://github.com/th3unkn0n/extra/blob/master/.img/tw.png" width="40" height="40">
-</p>
