@@ -60,9 +60,10 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 `$ cat members.csv`
 
-* Update Tool
+* Userlər yükləndikdən sonra aşağıdaki kodu yazın
 
-`$ python3 setup.py -u`
+`$ python3 add2group.py members.csv`
 
+* Və açılan səhifədə userləri atacağınız qrupu seçin
 ---
 
