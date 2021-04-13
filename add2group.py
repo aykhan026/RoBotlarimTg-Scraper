@@ -35,7 +35,7 @@ try:
 except KeyError:
     os.system('clear')
     banner()
-    print(re+"[!] run python3 setup.py first !!\n")
+    print(re+"[!] əvvəlcə python3 setup.py başladın !!\n")
     sys.exit(1)
 
 client.connect()
@@ -92,7 +92,7 @@ target_group=groups[int(g_index)]
  
 target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
  
-print(gr+"[1] istifadəçi tərəfindən üzv əlavə edin ID\n[2] add member by username ")
+print(gr+"[1] istifadəçi tərəfindən üzv əlavə edin ID\n[2] istifadəçi adı ilə üzv əlavə edin ")
 mode = int(input(gr+"Input : "+re)) 
 n = 0
  
@@ -109,15 +109,15 @@ for user in users:
 	        elif mode == 2:
 	            user_to_add = InputPeerUser(user['id'], user['access_hash'])
 	        else:
-	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
+	            sys.exit(re+"[!] Yanlış rejim seçildi. Zəhmət olmasa bir daha cəhd edin.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
-	        print(gr+"[+] Waiting for 5-10 Seconds...")
+	        print(gr+"[+] Spam olmaması üçün 5-10 saniyə gözləyirəm...")
 	        time.sleep(random.randrange(5, 10))
 	    except PeerFloodError:
-	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
+	        print(re+"[!] Telegramnan Spam Flood Xətası alərıq zəhmət olmasa başka profillə yenidən cəhd edin \n[!] Script dayandırıldı. \n[!] Bu bizim səhvimiz deyil Telegram tərəfindən bloklanmısınız.")
 	    except UserPrivacyRestrictedError:
-	        print(re+"[!] The user's privacy settings do not allow you to do this. Skipping.")
+	        print(re+"[!] İstifadəçinin məxfilik parametrləri bunu etməyə imkan vermir. Bu istifadəçini keçdim.")
 	    except:
 	        traceback.print_exc()
-	        print(re+"[!] Unexpected Error")
+	        print(re+"[!] Gözlənilməz Xəta. Zəhmət olmasa ekran şəkli çəkib onu RoBotlarim Support qrupuna göndərin.")
 	        continue
