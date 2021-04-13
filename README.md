@@ -36,7 +36,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 `$ pkg install python git`
 
-* "Y" yazaraq təsdiqləyin
+* "y" yazaraq təsdiqləyin
 
 `$ git clone https://github.com/aykhan026/RoBotlarimTg-Scraper.git`
 
@@ -46,7 +46,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 `$ python3 setup.py -i`
 
-* setup configration file ( apiID, apiHASH )
+* Açılan səhifədə "n" yazıb enter basın
 
 `$ python3 setup.py -c`
 
