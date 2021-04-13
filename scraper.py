@@ -16,8 +16,9 @@ def banner():
 {re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
 {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
 
-            version : 3.1
-youtube.com/channel/UCnknCgg_3pVXS27ThLpw3xQ
+            versiya : 3.1
+            RoBotlarimTg 
+            aykhan_s
         """)
 
 cpass = configparser.RawConfigParser()
@@ -64,22 +65,22 @@ for chat in chats:
     except:
         continue
  
-print(gr+'[+] Choose a group to scrape members :'+re)
+print(gr+'[+] İstifadəçiləri götürməy üçün bir qrup seçin :'+re)
 i=0
 for g in groups:
     print(gr+'['+cy+str(i)+gr+']'+cy+' - '+ g.title)
     i+=1
  
 print('')
-g_index = input(gr+"[+] Enter a Number : "+re)
+g_index = input(gr+"[+] Nömrəni daxil edin : "+re)
 target_group=groups[int(g_index)]
  
-print(gr+'[+] Fetching Members...')
+print(gr+'[+] İstifadəçilər götürülür...')
 time.sleep(1)
 all_participants = []
 all_participants = client.get_participants(target_group, aggressive=True)
  
-print(gr+'[+] Saving In file...')
+print(gr+'[+] Yaddaşda saxlanılır...')
 time.sleep(1)
 with open("members.csv","w",encoding='UTF-8') as f:
     writer = csv.writer(f,delimiter=",",lineterminator="\n")
@@ -99,4 +100,4 @@ with open("members.csv","w",encoding='UTF-8') as f:
             last_name= ""
         name= (first_name + ' ' + last_name).strip()
         writer.writerow([username,user.id,user.access_hash,name,target_group.title, target_group.id])      
-print(gr+'[+] Members scraped successfully.')
+print(gr+'[+] Tamamlandı.')
