@@ -12,7 +12,8 @@
   </a>
 </p>
 <p align="center">
-<h1>RoBotlarım - Scraper</h1>
+<h1>RoBotlarım 👨🏻‍💻</h1>
+<h1>Scraper</h1>
 </p>
 <p align="center">
 </p>
