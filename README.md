@@ -54,8 +54,7 @@ Tam Azərbaycan Dilindədir 🇦🇿
 
 `$ python3 scraper.py`
 
-* ( members.csv is default if you changed name use it )
-* Send Bulk sms To Collected Data 
+* Telegrama gedən kodu daxil edin
 
 `$ python3 smsbot.py members.csv`
 
