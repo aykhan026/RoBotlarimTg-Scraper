@@ -22,6 +22,7 @@ def banner():
  ║ RoBotlarımTg ║
  ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ ║
 *╚═══❖══════❖═══╝
+Xəta alsanız ekran şəkli çəkib yardım qrupuna yazın
 	""")
 
 def requirements():
