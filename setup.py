@@ -34,8 +34,8 @@ def requirements():
 			python3 -m pip install cython numpy pandas
 			""")
 	banner()
-	print(gr+'['+cy+'+'+gr+']'+cy+' csv birləşməsini quraşdırmaq 10 dəqiqə çəkəcək.')
-	input_csv = input(gr+'['+cy+'+'+gr+']'+cy+' csv birləşməsini aktivləşdirmək istəyirsiniz (y/n): ').lower()
+	print(gr+'['+cy+'+'+gr+']'+cy+' Bu hissəyə n yazaraq enter seçin')
+	input_csv = input(gr+'['+cy+'+'+gr+']'+cy+' (y/n) ? ').lower()
 	if input_csv == "y":
 		csv_lib()
 	else:
