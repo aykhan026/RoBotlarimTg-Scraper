@@ -17,11 +17,11 @@ cy="\033[1;36m"
 
 def banner():
     print(f"""
-*╔═══❖•ೋ° °ೋ•❖═══╗*
-   versiya : 1.0
-   RoBotlarımTg
-   aykhan_s
-*╚═══❖•ೋ° °ೋ•❖═══╝*
+*╔═══❖══════❖═══╗
+ ║ aykhan_s        ║
+ ║ RoBotlarımTg    ║
+ ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ   ║
+*╚═══❖══════❖═══╝
         """)
 
 cpass = configparser.RawConfigParser()
