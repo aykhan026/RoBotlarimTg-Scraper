@@ -17,9 +17,11 @@ import time
 def banner():
 	os.system('clear')
 	print(f"""
-	{re}╔═╗{cy}┌─┐┌┬┐┬ ┬┌─┐
-	{re}╚═╗{cy}├┤  │ │ │├─┘
-	{re}╚═╝{cy}└─┘ ┴ └─┘┴
+*╔═══❖══════❖═══╗
+ ║ aykhan_s        ║
+ ║ RoBotlarımTg    ║
+ ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ   ║
+*╚═══❖══════❖═══╝
 	""")
 
 def requirements():
