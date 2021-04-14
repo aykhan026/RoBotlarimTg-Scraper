@@ -18,9 +18,9 @@ def banner():
 	os.system('clear')
 	print(f"""
 *╔═══❖══════❖═══╗
- ║ aykhan_s        ║
- ║ RoBotlarımTg    ║
- ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ   ║
+ ║ aykhan_s      ║
+ ║ RoBotlarımTg  ║
+ ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ  ║
 *╚═══❖══════❖═══╝
 	""")
 
