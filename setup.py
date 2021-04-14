@@ -1,5 +1,5 @@
 #!/bin/env python3
-# code by : aykhan_s
+# code by : aykhan_s | reponu icazəsiz kopyalama ...... !
 
 """
 
