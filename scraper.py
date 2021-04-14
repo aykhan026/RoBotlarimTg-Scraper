@@ -13,10 +13,11 @@ cy="\033[1;36m"
 def banner():
     print(f"""
 *╔═══❖══════❖═══╗
- ║ aykhan_s        ║
- ║ RoBotlarımTg    ║
- ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ   ║
+ ║ aykhan_s     ║
+ ║ RoBotlarımTg ║
+ ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ ║
 *╚═══❖══════❖═══╝
+Xəta alsanız ekran şəklini çəkib yardım qrupuna yazın
             
         """)
 
