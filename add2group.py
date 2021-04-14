@@ -22,6 +22,7 @@ def banner():
  ║ RoBotlarımTg ║
  ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ ║
 *╚═══❖══════❖═══╝
+Xəta alsanız ekran şəklini çəkib yardım qrupuna yazın
         """)
 
 cpass = configparser.RawConfigParser()
@@ -87,13 +88,13 @@ for group in groups:
     i+=1
 
 print(gr+'[+] Üzvləri əlavə etmək üçün bir qrup seçin')
-g_index = input(gr+"[+] Kodu daxil edin : "+re)
+g_index = input(gr+"[+] Qrup nömrəsini yazın : "+re)
 target_group=groups[int(g_index)]
  
 target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
  
 print(gr+"[1] istifadəçi tərəfindən üzv əlavə edin ID\n[2] istifadəçi adı ilə üzv əlavə edin ")
-mode = int(input(gr+"Input : "+re)) 
+mode = int(input(gr+"Bura 1 yazın : "+re)) 
 n = 0
  
 for user in users:
