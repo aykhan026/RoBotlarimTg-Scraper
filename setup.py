@@ -28,7 +28,7 @@ Xəta alsanız ekran şəkli çəkib yardım qrupuna yazın
 def requirements():
 	def csv_lib():
 		banner()
-		print(gr+'['+cy+'+'+gr+']'+cy+' this may take some time ...')
+		print(gr+'['+cy+'+'+gr+']'+cy+' Nəysə səflik oldu ...')
 		os.system("""
 			pip3 install cython numpy pandas
 			python3 -m pip install cython numpy pandas
