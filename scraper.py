@@ -12,13 +12,12 @@ cy="\033[1;36m"
 
 def banner():
     print(f"""
-{re}╔╦╗{cy}┌─┐┬  ┌─┐{re}╔═╗  ╔═╗{cy}┌─┐┬─┐┌─┐┌─┐┌─┐┬─┐
-{re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
-{re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
-
-            versiya : 3.1
-            RoBotlarimTg 
-            aykhan_s
+*╔═══❖══════❖═══╗
+ ║ aykhan_s        ║
+ ║ RoBotlarımTg    ║
+ ║   ᕙ( ͡° ͜ʖ ͡°)ᕗ   ║
+*╚═══❖══════❖═══╝
+            
         """)
 
 cpass = configparser.RawConfigParser()
